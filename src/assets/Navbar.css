@@ -2,7 +2,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #141414;
+  background-color: var(--bg);
   padding: 18px 60px;
 }
 
@@ -35,7 +35,7 @@ nav,
     display: flex;
     align-items: center;
     gap: 16px;
-    color: #f5f5f1;
+    color: var(--white);
   }
 
   .header__right img:not(.avatar__dropdown) {

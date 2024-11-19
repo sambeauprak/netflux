@@ -1,0 +1,36 @@
+footer {
+  padding: 0 60px;
+}
+.footer__social {
+  display: flex;
+  gap: 24px;
+}
+
+.footer__social img {
+  height: 25px;
+}
+
+.footer__links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 22px;
+}
+
+.footer__links ul {
+  display: grid;
+  gap: 18px;
+  list-style: none;
+  padding: 0;
+}
+
+.footer__links li a,
+.footer__button {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.footer__button {
+  margin-top: 60px;
+  border: 1px solid #999999;
+  padding: 8px 6px;
+}

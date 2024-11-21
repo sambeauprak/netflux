@@ -5,7 +5,16 @@ import trend4 from "../assets/images/1-04.png";
 import trend5 from "../assets/images/1-05.png";
 import trend6 from "../assets/images/1-06.png";
 import trend7 from "../assets/images/1-07.png";
+import { duplicateAndShuffle } from "../utils/array";
 
-const Trends = [trend1, trend2, trend3, trend4, trend5, trend6, trend7];
+let Trends = [trend1, trend2, trend3, trend4, trend5, trend6];
+
+// Duplicate the array and shuffle it
+
+Trends = duplicateAndShuffle(Trends);
+Trends = duplicateAndShuffle(Trends);
+Trends = duplicateAndShuffle(Trends);
+
+Trends = [...Trends, trend7];
 
 export default Trends;

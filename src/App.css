@@ -1,9 +1,26 @@
 :root {
   --white: #f5f5f1;
   --bg: #141414;
+  --red: #e50914;
+  --dark-transparent: rgba(20, 20, 20, 0.32);
 }
 
 body {
   background-color: var(--bg);
   color: var(--white);
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+a {
+  color: var(--white);
+  text-decoration: none;
 }

@@ -1,4 +1,5 @@
 footer {
+  margin-top: 125px;
   padding: 0 60px;
 }
 .footer__social {
@@ -21,12 +22,6 @@ footer {
   gap: 18px;
   list-style: none;
   padding: 0;
-}
-
-.footer__links li a,
-.footer__button {
-  color: var(--white);
-  text-decoration: none;
 }
 
 .footer__button {

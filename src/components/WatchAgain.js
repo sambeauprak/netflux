@@ -6,6 +6,16 @@ import watch5 from "../assets/images/2-05.png";
 import watch6 from "../assets/images/2-06.png";
 import watch7 from "../assets/images/2-07.png";
 
-const WatchAgain = [watch1, watch2, watch3, watch4, watch5, watch6, watch7];
+import { duplicateAndShuffle } from "../utils/array";
+
+let WatchAgain = [watch1, watch2, watch3, watch4, watch5, watch6];
+
+// Duplicate the array and shuffle it
+
+WatchAgain = duplicateAndShuffle(WatchAgain);
+WatchAgain = duplicateAndShuffle(WatchAgain);
+WatchAgain = duplicateAndShuffle(WatchAgain);
+
+WatchAgain = [...WatchAgain, watch7];
 
 export default WatchAgain;

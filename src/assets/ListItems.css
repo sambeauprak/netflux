@@ -1,5 +1,12 @@
+.list {
+  padding-left: 60px;
+  margin-bottom: 55px;
+}
+
 .list__items {
   display: flex;
+  column-gap: 5px;
+
   overflow-x: scroll;
   -ms-overflow-style: none; /* Internet Explorer 10+ */
   scrollbar-width: none; /* Firefox */

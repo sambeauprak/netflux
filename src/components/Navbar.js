@@ -1,4 +1,4 @@
-import "../assets/Navbar.css";
+import "./Navbar.css";
 import logo from "../assets/logo.png";
 import dropdown from "../assets/dropdown.svg";
 import notification from "../assets/notification.svg";
